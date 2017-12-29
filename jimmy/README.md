@@ -1,1 +1,2 @@
-# git-study-pull_request
+# gamble_project
+making gamble like blackjat

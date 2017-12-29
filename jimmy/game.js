@@ -22,6 +22,7 @@ Deck.prototype.getCard = function () {
     return null;
     // 아직 카드 안받을때
   }
+
   var random = Math.floor(Math.random() * (this.cards.length - this.cardsDrawn));
   var temp = this.cards[random];
 
@@ -56,5 +57,4 @@ Player.prototype.addCard = function () {
 };
 
 var deck = new Deck();
-var card = new Card();
 console.log(deck);
